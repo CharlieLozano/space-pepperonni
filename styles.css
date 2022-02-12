@@ -1,0 +1,244 @@
+@import url('https://fonts.googleapis.com/css2?family=Fascinate+Inline&family=Open+Sans:wght@300&family=Rowdies:wght@300&display=swap');
+
+:root {
+  --green: #53dd6cff;
+  --bluegreen: #63a088ff;
+  --darkblue: #56638aff;
+  --dark: #070707ff;
+  --cerise: #d1345bff;
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+
+
+body{
+    background-color: var(--dark);
+    color: white;
+    text-align: center;
+    
+}
+
+h1{
+    font-family: 'Fascinate Inline', cursive;
+    font-size: 80px;
+    
+}
+
+h2{
+    font-family: 'Rowdies', cursive;
+    font-size: 40px;
+    letter-spacing: 3px;
+}
+
+h3{
+    font-family: 'Rowdies', cursive;
+    font-size: 25px;
+    letter-spacing: 3px;
+}
+
+h4{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18;
+    letter-spacing: 3px;
+}
+
+p{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+}
+
+
+@media only screen and (max-width: 800px){
+
+    h1{
+        font-size: 50px;
+
+    }
+
+    h2{
+        font-size: 30px;
+    }
+
+    h3{
+        font-size: 25px;
+    }
+
+    h4{
+        font-size: 18;
+    }
+
+    p{
+        font-size: 18px;
+    }
+}
+
+
+nav{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+nav ul{
+    display: flex;
+    justify-content: center;
+    
+}
+
+nav li{
+    padding: 10px;
+    list-style-type: none;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+header{
+    background-color: var(--cerise);
+    color: black;
+    padding: 40px;
+}
+
+header img{
+    width: 300px;
+    padding-bottom: 0px;
+}
+
+header h1{
+    padding-top: 0px;
+    margin-top: 0px;
+    
+}
+
+header h2{
+    color: #96002c;
+}
+
+@media only screen and (max-width: 600px){
+    header img{
+        width: 50%;
+    }
+}
+
+#history{
+    background-color: var(--green);
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#history div{
+    background-color: var(--dark);
+    margin: 20px;
+    padding: 20px;
+    width: 40%;
+
+}
+
+#history h2{
+    padding-bottom: 10px;
+}
+
+#history p{
+    padding-bottom: 10px;
+}
+
+#history img{
+    width: 50%;
+}
+
+#ingridients{
+    background-color: var(--bluegreen);
+    padding: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#ingridients h2{
+    padding-bottom: 20px;
+    width: 100%;
+}
+
+#ingridients h3{
+    padding-bottom: 15px;
+}
+
+.card{
+    background-color: black;
+    padding: 5px 25px 15px;
+    width: 30%;
+    margin: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: stretch;
+    justify-content: center;
+
+}
+
+.card img{
+    width: 100%;
+}
+
+#chefs{
+    background-color: var(--darkblue);
+    padding: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#chefs h2{
+    padding-bottom: 20px;
+    width: 100%;
+}
+
+#chefs h3{
+    padding-bottom: 15px;
+}
+
+#chefs .card{
+    display: flex;
+    flex-wrap: wrap;
+    align-content: stretch;
+    justify-content: center;
+}
+
+@media only screen and (max-width: 800px){
+    .card{
+        width: 40%;
+
+    }
+    
+    #history img{
+        width: 100%;
+    }
+    
+    #history div{
+        width: 100%;
+    }
+    
+}
+    
+@media only screen and (max-width: 600px){
+    .card{
+        width: 100%;
+
+    }
+}
+
+#contact{
+    background-color: var(--cerise);
+    padding: 20px;
+}
+
+footer{
+    padding: 10px;
+}
